@@ -15,7 +15,6 @@ export function CardItem({ metroLine }: MetroLineProps) {
     atualizacao,
     codigo,
     empresa,
-    id,
     nome,
     ocorrencia,
     situacao,
