@@ -7,10 +7,18 @@ export function Header() {
 
       <p className="max-w-72 text-xs font-medium text-zinc-800">
         Atualizações em tempo real das linhas do{" "}
-        <a href="https://www.metro.sp.gov.br/">Metrô</a>,
-        <a href="https://www.viamobilidade.com.br/">ViaMobilidade</a> e{" "}
-        <a href="https://www.cptm.sp.gov.br/Pages/Home.aspx">CPTM</a> a cada 5
-        minutos!
+        <a href="https://www.metro.sp.gov.br/" target="_blank">
+          Metrô
+        </a>
+        ,
+        <a href="https://www.viamobilidade.com.br/" target="_blank">
+          ViaMobilidade
+        </a>{" "}
+        e{" "}
+        <a href="https://www.cptm.sp.gov.br/Pages/Home.aspx" target="_blank">
+          CPTM
+        </a>{" "}
+        a cada 5 minutos!
       </p>
     </header>
   );
